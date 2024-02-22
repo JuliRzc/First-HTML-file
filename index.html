@@ -8,24 +8,26 @@
 </head>
 <body id="fondo">
     <header>
-    <H1 id="titulo">El digital de la gente</H1>
-        <span>CUENTA</span>
-        <span>NOTICIAS</span>
-        <span>NUESTRAS REDES</span>
+    <div class="barra">
+     <H1 id="titulo">El digital de la gente</H1>
+        <span"><a class="cont-barra" href="">CUENTA</a></span>
+        <span><a class="cont-barra" href="">NOTICIAS</a></span>
+        <span><a class="cont-barra" href="">REDES</a></span>
         <nav>
             <ul>
-                <li><a href="#politica">Política</a></li>
-                <li><a href="#economia">Economía</a></li>
-                <li><a href="#deportes">Deportes</a></li>
-                <li><a href="#entretenimiento">Entretenimiento</a></li>
+                <li><a class="cont-barra" href="#politica">Política</a></li>
+                <li><a class="cont-barra" href="#economia">Economía</a></li>
+                <li><a class="cont-barra" href="#deportes">Deportes</a></li>
+                <li><a class="cont-barra" href="#entretenimiento">Entretenimiento</a></li>
             </ul>
         </nav>
+    </div>    
     </header>
     <hr />
     <main>
         <section>
     <article id="politica">
-      <h2>Política</h2>
+      <h2 class="temas">Política</h2>
       <h3>Milei presentó el DNU</h3>
        <p>En las últimas horas el presidente, Javier Milei, aunució el DNU que será aplicado desde el 28 de febrero de este año. Lorem, 
         ipsum dolor sit amet consectetur adipisicing elit. Recusandae impedit iure non, repellat animi laboriosam cum, 
@@ -39,21 +41,21 @@
             <li>vaciones en invierno y verano obligatorias</li>
         </ul>
         <!--El atributo width indica el tamaño de la imagen-->
-        <img src="https://www.diarioconvos.com/wp-content/uploads/2023/12/DNU-Milei.webp" width="400">
+        <img class="media" src="https://www.diarioconvos.com/wp-content/uploads/2023/12/DNU-Milei.webp">
     </article>
     <!--La etiquete hr crea una linea para separar contenido-->
     <hr />
     <article id="economia">
-      <h2>Economía</h2>
+      <h2 class="temas">Economía</h2>
       <h3>El futuro del dolar</h3>
        <p>Desde el pasado 3 de febrero el dolar no para de subir y esto nos está haciendo pensar hasta donde va a llegar. 
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut perferendis ab aliquid, ex quo quod tenetur distinctio iste, 
         alias laudantium reiciendis laboriosam accusamus vero facilis quaerat itaque soluta possimus cum.</p>
-        <img src="https://resizer.iproimg.com/unsafe/880x/filters:format(webp)/https://assets.iprofesional.com/assets/jpg/2021/08/522017.jpg" width="400">
+        <img class="media" src="https://resizer.iproimg.com/unsafe/880x/filters:format(webp)/https://assets.iprofesional.com/assets/jpg/2021/08/522017.jpg">
     </article>
     <hr />
     <article id="deportes">
-     <h2>Deportes</h2>
+     <h2 class="temas">Deportes</h2>
      <h3>Problemas en el plantel de River</h3>
       <p>El delantero del millonario, Miguel Borja, tuvo que quitarle la pelota a unos de sus compañeros
         Se cree que podra volver a jugar dentro de 4 fechas.
@@ -64,11 +66,11 @@
         <a href="https://www.youtube.com/watch?v=uebnHn4wscg">Mas sobre la lesion de Borja</a>
       </p>
       <!--iframe es una etiqueta para llevar un arcivo html por completo-->
-      <iframe width="500" height="300" src="https://www.youtube.com/embed/J6pb5qh0dAo" title="¡INSÓLITO! DOBLE PENAL ERRADO POR BARCO TRAS LA ORDEN DE DEMICHELIS DE QUE PATEÉ BORJA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe class="media" id="media-vid" src="https://www.youtube.com/embed/J6pb5qh0dAo" title="¡INSÓLITO! DOBLE PENAL ERRADO POR BARCO TRAS LA ORDEN DE DEMICHELIS DE QUE PATEÉ BORJA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </article>
     <hr />
     <article id="entretenimiento">
-      <h2>Entretenimiento</h2>
+      <h2 class="temas">Entretenimiento</h2>
       <h3>El TikTok del día</h3>
        <p>El dia de ayer, el famoso tiktoker pepito se hizo viral por comer nose que cosa. La gente esta comenzado a subir sus videos cumpliendo con el reto de comida.
         Y nosotros te traemos la receta para que puedas hacerlo en tu casa.
@@ -78,15 +80,15 @@
             <li>PASO: Agregar a la mezcla 100 gramos dde matenca derretida</li>
             <li>PASO: Colar la mezcla en los moldes que prefieras y llevar al horno por 30 minutos </li>
         </ol>
-        <img src="https://thehappening.com/wp-content/uploads/2021/05/tiktok-korean-food-nm.jpeg" width="400mpx">
+        <img class="media" src="https://thehappening.com/wp-content/uploads/2021/05/tiktok-korean-food-nm.jpeg">
     </article>
         </section>
     </main>
     <hr />
     <footer>
         <!--Las etiquetas span coloca los elementos en una linea horizontal-->
-        <span>SOBRE NOSOTROS</span>
-        <span>ACUERDOS DE PRIVACIDAD</span>
+        <span><a href="">NOSOTROS</a></span>
+        <span><a href="">DE PRIVACIDAD</a></span>
         <span><a href="./contactanos.html">CONTACTANOS</a></span>
     </footer>
      

@@ -3,19 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./estilos.css" />
     <title>El Digital</title>
 </head>
-<body>
+<body id="fondo">
     <header>
-    <H1>El digital de la gente</H1>
+    <H1 id="titulo">El digital de la gente</H1>
         <span>CUENTA</span>
         <span>NOTICIAS</span>
         <span>NUESTRAS REDES</span>
+        <nav>
+            <ul>
+                <li><a href="#politica">Política</a></li>
+                <li><a href="#economia">Economía</a></li>
+                <li><a href="#deportes">Deportes</a></li>
+                <li><a href="#entretenimiento">Entretenimiento</a></li>
+            </ul>
+        </nav>
     </header>
     <hr />
     <main>
         <section>
-    <article>
+    <article id="politica">
       <h2>Política</h2>
       <h3>Milei presentó el DNU</h3>
        <p>En las últimas horas el presidente, Javier Milei, aunució el DNU que será aplicado desde el 28 de febrero de este año. Lorem, 
@@ -29,10 +38,12 @@
             <li>5 viajes gratis al mes</li>
             <li>vaciones en invierno y verano obligatorias</li>
         </ul>
+        <!--El atributo width indica el tamaño de la imagen-->
         <img src="https://www.diarioconvos.com/wp-content/uploads/2023/12/DNU-Milei.webp" width="400">
     </article>
+    <!--La etiquete hr crea una linea para separar contenido-->
     <hr />
-    <article>
+    <article id="economia">
       <h2>Economía</h2>
       <h3>El futuro del dolar</h3>
        <p>Desde el pasado 3 de febrero el dolar no para de subir y esto nos está haciendo pensar hasta donde va a llegar. 
@@ -41,20 +52,22 @@
         <img src="https://resizer.iproimg.com/unsafe/880x/filters:format(webp)/https://assets.iprofesional.com/assets/jpg/2021/08/522017.jpg" width="400">
     </article>
     <hr />
-    <article>
+    <article id="deportes">
      <h2>Deportes</h2>
-     <h3>La lesion de Borja</h3>
-      <p>El delantero del millonario, Miguel Borja, sufrio una lesion en la última feccha disputada. 
+     <h3>Problemas en el plantel de River</h3>
+      <p>El delantero del millonario, Miguel Borja, tuvo que quitarle la pelota a unos de sus compañeros
         Se cree que podra volver a jugar dentro de 4 fechas.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui quas 
         facilis ipsa veritatis maiores hic? Ipsum nisi 
         voluptatum a quidem ab laudantium molestias cum accusamus, fuga asperiores sequi reiciendis?
+        Luego de la pelea a Borja le surgio una molestia y se cree que podria estar ausente en el clasico.
         <a href="https://www.youtube.com/watch?v=uebnHn4wscg">Mas sobre la lesion de Borja</a>
       </p>
-      <img src="https://media.tycsports.com/files/2023/11/28/650740/miguel-borja_1440x810_wmk.webp" width="400">
+      <!--iframe es una etiqueta para llevar un arcivo html por completo-->
+      <iframe width="500" height="300" src="https://www.youtube.com/embed/J6pb5qh0dAo" title="¡INSÓLITO! DOBLE PENAL ERRADO POR BARCO TRAS LA ORDEN DE DEMICHELIS DE QUE PATEÉ BORJA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </article>
     <hr />
-    <article>
+    <article id="entretenimiento">
       <h2>Entretenimiento</h2>
       <h3>El TikTok del día</h3>
        <p>El dia de ayer, el famoso tiktoker pepito se hizo viral por comer nose que cosa. La gente esta comenzado a subir sus videos cumpliendo con el reto de comida.
@@ -71,6 +84,7 @@
     </main>
     <hr />
     <footer>
+        <!--Las etiquetas span coloca los elementos en una linea horizontal-->
         <span>SOBRE NOSOTROS</span>
         <span>ACUERDOS DE PRIVACIDAD</span>
         <span><a href="./contactanos.html">CONTACTANOS</a></span>
